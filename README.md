@@ -32,9 +32,9 @@ It has two cases:
 ## 🔰 Basic Example
 
 ```swift
-func divide(_ a: Int, _ b: Int) -> Result<Int, String> {
+func divide(_ a: Int, _ b: Int) -> Result<Int, Error> {
     if b == 0 {
-        return .failure("Cannot divide by zero")
+        return .failure(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Cannot divide by zero"]))
     } else {
         return .success(a / b)
     }
