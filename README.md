@@ -1,5 +1,7 @@
 # ✅ Swift Result Type Explained with Real Examples
 
+[![Watch on YouTube](Result.png)](https://youtu.be/J57d2riri9w)
+
 This project covers the use of Swift’s powerful built-in `Result` type, which helps in handling success and failure in a cleaner and more controlled way. Whether you're new to Swift or preparing for iOS interviews, this guide gives you a practical and beginner-friendly overview — including real-world use cases.
 
 ---
@@ -129,7 +131,8 @@ case .failure(let error):
 ## 📽 YouTube Video
 
 🎬 Learn the concept visually in this video:
-🔗 **[Watch Now](https://youtube.com/@SainiPushpendra)**
+🔗 **[Watch Channel](https://youtube.com/@SainiPushpendra)**
+🔗 **[Watch Result Video](https://youtu.be/J57d2riri9w)**
 
 ---
 
